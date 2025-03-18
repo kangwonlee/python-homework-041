@@ -21,7 +21,8 @@ This exercise will help you understand how these operators work and how to apply
 ## Problem Description<br>문제 설명
 Your task is to create a Python program that:<br>이 과제는 다음과 같은 Python 프로그램을 만드는 것입니다:
 
-1. Prompts the user to enter an amount of currency (an integer).<br>사용자에게 통화 금액(정수)을 입력하라는 메시지를 표시합니다.
+1. Prompts the user to enter an amount of currency (a natural number).<br>사용자에게 통화 금액을 (자연수로) 입력하라는 메시지를 표시합니다.
+1. Print a line of 10 '-' characters.<br>'-' 문자 10 개로 구성된 줄을 출력합니다.
 1. Calculates how many coins of each denomination (500, 100, 50, 10, 5, and 1) are needed to make up that amount.<br>해당 금액을 구성하는 데 필요한 각 단위 (500, 100, 50, 10, 5, 1) 동전 수를 계산합니다.
 1. Prints the number of coins for each denomination.<br>각 단위별 동전 수를 출력합니다.
 
@@ -30,6 +31,7 @@ Your task is to create a Python program that:<br>이 과제는 다음과 같은 
 * Input 입력: 1237
 * Output 출력:
   ```
+  ----------
   500: 2
   100: 2
   50: 0
@@ -41,6 +43,7 @@ Your task is to create a Python program that:<br>이 과제는 다음과 같은 
 ## Requirements<br>요구 사항
 
 * Use the input() function to get the currency amount from the user (assume it’s a natural number).<br>input() 함수를 사용하여 사용자에게 통화 금액(자연수로 가정)을 입력받으세요.
+* Print a line of 10 '-' characters before displaying the results.<br>결과를 표시하기 전에 10 개의 '-' 문자로 구성된 줄을 출력하세요.
 * Use the `//` operator to calculate the number of coins for each denomination.<br>`//` 연산자를 사용하여 각 단위의 동전 수를 계산하세요.
 * Use the `%` operator to calculate the remaining amount after each step.<br>`%` 연산자를 사용하여 각 단계 후 남은 금액을 계산하세요.
 * Process the denominations in this order: 500, 100, 50, 10, 5, 1.<br>단위를 다음 순서로 처리하세요: 500, 100, 50, 10, 5, 1.
