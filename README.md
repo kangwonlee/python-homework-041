@@ -1,14 +1,12 @@
 # Coin Denomination Calculator Assignment<br>동전 세기
-
 * Exercise File: `exercise.py`<br>실습 파일: `exercise.py`
 
 ## Overview<br>개요
 
-In this assignment, you will write a Python program to calculate the number of coins needed to represent a given amount of currency.<br>이 과제에서는 주어진 통화 금액을 나타내는 데 필요한 동전의 수를 계산하는 Python 프로그램을 작성할 것입니다.
-
-You will use the `//` (floor division) and `%` (modulo) operators to break down the total amount into specific coin denominations: 500, 100, 50, 10, 5, and 1 units.<br>
+* In this assignment, you will write a Python program to calculate the number of coins needed to represent a given amount of currency.<br>이 과제에서는 주어진 통화 금액을 나타내는 데 필요한 동전의 수를 계산하는 Python 프로그램을 작성할 것입니다.
+* You will use the `//` (floor division) and `%` (modulo) operators to break down the total amount into specific coin denominations: 500, 100, 50, 10, 5, and 1 units.<br>
 나눗셈의 몫 `//` 와 나머지 `%` 연산자를 사용하여 입력된 금액에 해당하는 500, 100, 50, 10, 5, 1 단위 동전의 갯수를 계산하세요.
-This exercise will help you understand how these operators work and how to apply them in a practical problem.<br>
+* This exercise will help you understand how these operators work and how to apply them in a practical problem.<br>
 이 연습은 이러한 연산자의 작동 방식을 이해하고 실제 문제에 적용하는 데 도움이 될 것입니다.
 
 ## Objectives<br>목표
