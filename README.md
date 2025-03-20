@@ -47,6 +47,7 @@ Your task is to create a Python program that:<br>이 과제는 다음과 같은 
 * Process the denominations in this order: 500, 100, 50, 10, 5, 1.<br>단위를 다음 순서로 처리하세요: 500, 100, 50, 10, 5, 1.
 * Display the results clearly, showing the number of coins for each denomination.<br>각 단위별 동전 수를 알기 쉽게 표시하세요.
 * Your program should work for any natural number input.<br>프로그램은 모든 자연수 입력에 대해 작동해야 합니다.
+* In this exercise, please refrain from using `for` or `while` loops. (Yes the code will be *much* better with the loops, but this is intentional for learning purposes.)<br>이 연습에서는 `for` 루프를 사용하지 않기 바랍니다. (물론, 반복문이 있으면 코드가 *훨씬* 더 나아질 것이지만, 학습 목적상 의도된 제약조건입니다.)
 
 ## Hints<br>힌트
 
